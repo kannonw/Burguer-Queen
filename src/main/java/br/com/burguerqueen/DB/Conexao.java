@@ -10,9 +10,9 @@ public class Conexao {
 //    jdbc:mysql://127.0.0.1:3306/burguerqueen
 
     private final static String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private final static String URL = "jdbc:mysql://127.0.0.1:3306/burguerqueen";
+    private final static String URL = "jdbc:mysql://containers-us-west-149.railway.app:7261/railway";
     private final static String USER = "root";
-    private final static String PASS = "";
+    private final static String PASS = "tuq48hqYkJsr8qVhifGM";
 
     public static Connection conectaBD() {
         try {
