@@ -14,7 +14,7 @@
             <Image url="@Imagens/pedido.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="311.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Pastel de Frango com Requeijão">
+      <Text layoutX="348.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor total do pedido" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
