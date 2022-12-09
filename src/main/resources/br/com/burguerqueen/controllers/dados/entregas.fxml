@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.burguerqueen.controllers.dados.EntregasController">
+   <children>
+      <Text layoutX="41.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Concluir pedido" />
+      <Text layoutX="41.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Cardápio &gt; Formas de Entrega &gt; Formas de Pagamento" />
+      <Text layoutX="41.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="41.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="212.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Endereço:">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <Text layoutX="124.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefone para contato:">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <TextField fx:id="CampoEndereco" layoutX="289.0" layoutY="164.0" />
+      <TextField fx:id="CampoTelefone" layoutX="289.0" layoutY="201.0" />
+      <Button layoutX="203.0" layoutY="349.0" mnemonicParsing="false" onAction="#BotaoRetirada" text=" Obter código para retirada">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Text layoutX="17.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deseja retirar na loja?">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="253.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delivery">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Button layoutX="261.0" layoutY="244.0" mnemonicParsing="false" onAction="#BotaoSeguirPagamento" text=" Seguir para o pagamento">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.burguerqueen.controllers.dados.AtendimentoController">
+   <children>
+      <Text layoutX="136.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atendimento ao Cliente" wrappingWidth="313.658203125">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="27.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Os pedidos chegaram no tempo esperado?">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="27.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Os pedidos chegaram corretamente?">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="27.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você recomendaria este serviço?">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="27.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Espaço para sugestões/críticas:">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <TextField fx:id="CampoTempo" layoutX="389.0" layoutY="92.0" />
+      <TextField fx:id="CampoEstado" layoutX="390.0" layoutY="120.0" />
+      <TextField fx:id="CampoServico" layoutX="390.0" layoutY="157.0" />
+      <TextField fx:id="CampoSugestao" layoutX="390.0" layoutY="188.0" />
+      <Button defaultButton="true" layoutX="329.0" layoutY="255.0" mnemonicParsing="false" onAction="#BotaoEnviar" text=" Enviar">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button defaultButton="true" layoutX="157.0" layoutY="255.0" mnemonicParsing="false" onAction="#BotaoVoltar" text="Voltar">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

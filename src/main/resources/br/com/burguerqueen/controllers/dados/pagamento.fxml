@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.burguerqueen.controllers.dados.PagamentoController">
+   <children>
+      <Text layoutX="41.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Concluir pedido" />
+      <Text layoutX="41.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Cardápio &gt; Formas de Entrega &gt; Formas de Pagamento" />
+      <Button layoutX="449.0" layoutY="343.0" mnemonicParsing="false" onAction="#BotaoConcluirPedido" text=" Concluir pedido" />
+      <Text layoutX="133.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Pagamento com cartão de crédito/débito">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="158.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome no cartão:">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text layoutX="158.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número do cartão:">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text layoutX="158.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CVV:">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <TextField fx:id="CamppoNomeCartao" layoutX="300.0" layoutY="160.0" />
+      <TextField fx:id="CampoNumCartao" layoutX="300.0" layoutY="188.0" />
+      <TextField fx:id="CampoCVV" layoutX="194.0" layoutY="212.0" onKeyTyped="#CvvDigitado" prefHeight="0.0" prefWidth="149.0" />
+      <Button layoutX="41.0" layoutY="343.0" mnemonicParsing="false" onAction="#BotaoVoltar" text=" Voltar" />
+   </children>
+</AnchorPane>
